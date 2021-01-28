@@ -1,0 +1,76 @@
+.one_three p{
+    width: 33%;
+    text-align: center;
+    display: inline-block;
+}
+.one_three{
+    background-color: #97F1EB;
+}
+p{
+    margin: 0;
+}
+.four_five{
+    width: 66%;
+    display: inline-block;
+}
+.four_five p{
+    text-align: center;
+}
+.six_eight p{
+    text-align: center;
+}
+.six_eight{
+    width: 33%;
+    display: inline-block;
+}
+.four_eight{
+    display: inline-block;
+    background-color: #90F0CC;
+}
+.nine_thirteen{
+    background-color: #5AE3CB;
+}
+.nine_thirteen>div:first-child{
+    width: 33%;
+    display: inline-block;
+}
+.ten_thirteen{
+    width: 66%;
+    text-align: center;
+    display: inline-block;
+}
+.eleven_thirteen div{
+    width: 49%;
+    display: inline-block;
+}
+.fourteen_eighteen>div:first-child{
+    display: inline-block;
+    text-align: center;
+}
+.fourteen_nineteen>div:last-child{
+    width: 33%;
+    display: inline-block;
+}
+.fifteen_seventeen {
+    width: 50%;
+    display: inline-block;
+}
+.fifteen_eighteen{
+    display: inline-block;
+    text-align: center;
+}
+.sixteen_seventeen>div{
+    width: 49%;
+    display: inline-block;
+}
+.fifteen_eighteen>div:last-child{
+    width: 49%;
+    display: inline-block;
+}
+.fourteen_eighteen {
+    display: inline-block;
+    width: 66%;
+}
+.fourteen_nineteen{
+    background-color: #52D98D;
+}
