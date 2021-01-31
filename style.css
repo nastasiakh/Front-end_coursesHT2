@@ -1,76 +1,67 @@
-.one_three p{
-    width: 33%;
-    text-align: center;
-    display: inline-block;
-}
-.one_three{
-    background-color: #97F1EB;
-}
-p{
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
     margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
-.four_five{
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.parent{
+    font-size: 0;
+}
+.width-33{
+    width: 33%;
+}
+.width-66{
     width: 66%;
-    display: inline-block;
 }
-.four_five p{
+.inline-block{
+    display: inline-block;
+    font-size: 15px;
+    padding: 0;
     text-align: center;
 }
-.six_eight p{
-    text-align: center;
+.section-1{
+    background-color: #ff89;
 }
-.six_eight{
-    width: 33%;
-    display: inline-block;
+.section-2{
+    background: #562;
 }
-.four_eight{
-    display: inline-block;
-    background-color: #90F0CC;
-}
-.nine_thirteen{
-    background-color: #5AE3CB;
-}
-.nine_thirteen>div:first-child{
-    width: 33%;
-    display: inline-block;
-}
-.ten_thirteen{
-    width: 66%;
-    text-align: center;
-    display: inline-block;
-}
-.eleven_thirteen div{
-    width: 49%;
-    display: inline-block;
-}
-.fourteen_eighteen>div:first-child{
-    display: inline-block;
-    text-align: center;
-}
-.fourteen_nineteen>div:last-child{
-    width: 33%;
-    display: inline-block;
-}
-.fifteen_seventeen {
+.width-50{
     width: 50%;
-    display: inline-block;
-}
-.fifteen_eighteen{
-    display: inline-block;
-    text-align: center;
-}
-.sixteen_seventeen>div{
-    width: 49%;
-    display: inline-block;
-}
-.fifteen_eighteen>div:last-child{
-    width: 49%;
-    display: inline-block;
-}
-.fourteen_eighteen {
-    display: inline-block;
-    width: 66%;
-}
-.fourteen_nineteen{
-    background-color: #52D98D;
 }
